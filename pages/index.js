@@ -8,6 +8,7 @@ import About from "../components/home/About";
 import Raed from "../components/home/Raed";
 import Services from "./service_help/Services";
 import Articles_main from "./Safety_Articles/Articles_main";
+import Curr_Team from "../components/home/Curr_Team";
 
 export default function Home() {
   return (
@@ -48,7 +49,8 @@ export default function Home() {
         {/* <Stats /> */}
         <Donate />
         {/* <Testimonials /> */}
-        <CoreTeam />
+        {/* <CoreTeam /> */}
+        <Curr_Team />
         <About />
       </main>
 

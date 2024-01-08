@@ -1,9 +1,28 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState, useEffect } from "react";
+import LoadingAnimation from "../../components/common/LoadingAnimation";
+
 
 const Article2 = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading for 1-2 seconds
+    const timeoutId = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    // Cleanup the timeout on component unmount
+    return () => clearTimeout(timeoutId);
+  }, []);
+
   return (
+    <div>
+      {isLoading ? (
+        <LoadingAnimation />
+      ) : (
+        <>
     <div className="container mx-auto">
       <div className="p-4">
         {/* 1st Line - Quick Overview Title */}
@@ -88,10 +107,13 @@ const Article2 = () => {
             </p>
           </div>
           <button className="p-6 flex justify-center text-black font-medium border border-black rounded-md py-3 px-7.5 hover:bg-black hover:text-white ease-in duration-200 mx-auto mt-10">
-            Get Help Regarding Unclaimed Dividends
+            Get Help with Unclaimed Shares 
           </button>
         </div>
-      </div>
+        </div>
+        </>
+      )}
+    </div>
   );
 };
 

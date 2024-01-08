@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div
-      className="flex flex-col w-full items-center mt-10 md:mt-14 "
+      className="flex flex-col w-full items-center mt-10 md:mt-30 "
       id="about"
     >
       <p className="text-4xl font-bold">About Us</p>
