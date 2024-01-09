@@ -9,7 +9,7 @@ const Transmission_Issue = () => {
           <br />
         </h1>
         <div className="flex items-start mb-10">
-          <p className="mt-5 sm:mt-10 text-gray-400 text-left font-normal text-sm sm:text-lg mx-0">
+          <p className="mt-5 sm:mt-10 text-gray-400 text-left font-normal text-sm sm:text-lg mx-0 text-justify">
             Facilitating the transmission of shares often involves navigating
             legal intricacies and complexities, and our services at Raed India
             are tailored to offer comprehensive support to our clients. Some
@@ -48,7 +48,7 @@ const Transmission_Issue = () => {
           href="https://forms.gle/BNYN5668oVRBqHKb6"
           target="blank"
         >
-          File Your Claim Now
+          Get Help Now
         </a>
       </div>
     </div>

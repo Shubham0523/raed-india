@@ -8,7 +8,7 @@ const IEPF = () => {
           IEPF Claim <br />
         </h1>
         <div className="flex items-start mb-10">
-          <p className="mt-5 sm:mt-10 text-gray-400 text-left font-normal text-sm sm:text-lg mx-0">
+          <p className="mt-5 sm:mt-10 text-gray-400 text-left font-normal text-sm sm:text-lg mx-0 text-justify">
             Raed India specializes in providing consultancy services for the
             recovery of shares & unclaimed dividends from the Investor Education
             & Protection Fund (IEPF), a governmental body under the Ministry of

@@ -9,7 +9,7 @@ const Duplicate_Issue = () => {
           <br />
         </h1>
         <div className="flex items-start mb-10">
-          <p className="mt-5 sm:mt-10 text-gray-400 text-left font-normal text-sm sm:text-lg mx-0">
+          <p className="mt-5 sm:mt-10 text-gray-400 text-left font-normal text-sm sm:text-lg mx-0 text-justify">
             The process commonly referred to as Duplicate Issuance of Shares, or
             duplicate share certificate issuance, enables shareholders to
             acquire replacement share certificates for their ownership in a

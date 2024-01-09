@@ -31,10 +31,12 @@ const Services = () => {
             Where We <span className="text-orange -600">Help</span> <br />
           </h1>
           <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-400 font-normal text-center text-sm sm:text-lg">
+          <p className="text-justify">
             Raed India is your dedicated partner in reclaiming unclaimed funds,
             specializing in the recovery of shares, dividends, and investments.
             Our mission is to empower individuals by simplifying the process of
             retrieving their rightful financial assets.
+            </p>
           </p>
           <div className="grid grid-cols-3 gap-20 p-6 mt-20">
             {services.map((service) => (

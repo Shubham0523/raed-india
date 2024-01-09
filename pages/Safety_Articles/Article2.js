@@ -67,42 +67,42 @@ const Article2 = () => {
         {/* Main Content Section */}
         <div className="max-w-[770px] mx-auto">
           <div>
-            <p className="mb-5 text-body">
+            <p className="mb-5 text-body text-justify">
               To oversee the Investor Education and Protection Fund (IEPF), the
               Indian government established the Investor Education and
               Protection Fund Authority on September 7, 2016, as per the
               guidelines of section 125 of the Companies Act, 2013.
             </p>
-              <p className="mb-5 text-body">
+              <p className="mb-5 text-body text-justify">
                 The Authority has the crucial task of managing the IEPF,
                 overseeing reimbursements related to unclaimed dividends,
                 matured deposits, and debentures, and actively promoting
                 awareness among investors.
               </p>
-              <p className="text-dark mb-5">
+              <p className="text-dark mb-5 text-justify">
               The IEPF serves various purposes, including refunding unclaimed dividends, matured deposits, debentures, application money, and the associated interest. It also supports initiatives for investor education, awareness, and protection, along with distributing disgorged amounts to eligible applicants affected by wrongful actions, based on court orders.
               </p>
-              <p className="text-dark mb-5">
+              <p className="text-dark mb-5 text-justify">
               Moreover, the IEPF Authority is empowered to reimburse legal expenses incurred in pursuing class action suits under sections 37 and 245, as sanctioned by the Tribunal. The fund may be employed for any other purpose related to its objectives, following prescribed rules.
               </p>
-              <p className="text-dark mb-5">
+              <p className="text-dark mb-5 text-justify">
               Looking back, the Investor Education and Protection Fund (IEPF) was established under Section 205C of the Companies Act, 1956, through the Companies (Amendment) Act, 1999. The fund accrues amounts from unpaid dividends, application money, matured deposits, debentures, and associated interests, as well as grants and donations from governmental and corporate entities.
               </p>
-              <p className="text-dark mb-5">
+              <p className="text-dark mb-5 text-justify">
               In adopting a proactive strategy, the IEPF Authority engages in a comprehensive approach to sensitize stakeholders, reaching out to household investors, professionals, and individuals in rural and urban areas alike. Collaborating with professional institutes, the Authority conducts awareness programs covering various investment topics, market dynamics, and investor rights.
               </p>
-              <p className="text-dark mb-5">
+              <p className="text-dark mb-5 text-justify">
               In rural areas, programs are executed in collaboration with Common Service Centres (CSCs) to educate citizens on fundamental financial concepts such as savings, budgeting, and protection against investment frauds.
               </p>
-              <p className=" text-dark mb-5">
+              <p className=" text-dark mb-5 text-justify">
               To spread awareness, multilingual information, education, and communication materials, including booklets and films, have been created. Joint campaigns with entities like the Reserve Bank of India and the Securities and Exchange Board of India enhance outreach.
               </p>
             </div>
             <img src="/article/article2_02.jpg" alt="blog" className="my-8" />
-            <p className="mb-5 text-body">
+            <p className="mb-5 text-body text-justify">
             The IEPF Authority has achieved notable milestones, significantly increasing the number of awareness programs over the years. From 1869 programs in 2013-2014 to 5876 in 2017-2018, the Authority has expanded its efforts, conducting 14519 awareness programs through various channels.
             </p>
-            <p className="mb-5 text-body">
+            <p className="mb-5 text-body text-justify">
             This article provides an in-depth understanding of the versatile approach of the IEPF Authority, emphasizing its dedication to fostering financial literacy, protecting investors, and contributing to a resilient financial ecosystem in India.
             </p>
           </div>

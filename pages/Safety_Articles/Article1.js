@@ -71,7 +71,7 @@ const Article1 = () => {
               {/* Main Content Section */}
               <div className="max-w-[770px] mx-auto">
                 <div>
-                  <p className="mb-5 text-body">
+                  <p className="mb-5 text-body text-justify">
                     Discovering unclaimed dividends can be a surprising
                     revelation, as millions of investors remain unaware of their
                     entitled profits lying dormant with listed companies or
@@ -87,7 +87,7 @@ const Article1 = () => {
                     <h3 class="font-semibold text-heading-6 text-dark mb-6">
                       Why Unclaimed Dividends Exist:
                     </h3>
-                    <p className="mb-5 text-body">
+                    <p className="mb-5 text-body text-justify">
                       Various factors contribute to the accumulation of
                       unclaimed dividends, including outdated contact
                       information, neglected legacy investments, and
@@ -101,7 +101,7 @@ const Article1 = () => {
                     <h3 class="font-semibold text-heading-6 text-dark mb-6">
                       Identifying Unclaimed Dividends:
                     </h3>
-                    <p className="font-semibold text-dark mb-5">
+                    <p className="font-semibold text-dark mb-5 text-justify">
                       Unclaimed dividends can result from outdated addresses,
                       un-updated bank details, expired checks, or simply
                       forgetting about eligible dividends. Companies are
@@ -262,7 +262,7 @@ const Article1 = () => {
                     alt="blog"
                     className="my-8"
                   />
-                  <p className="mb-5 text-body">
+                  <p className="mb-5 text-body text-justify">
                     Reclaiming unclaimed dividends is essential for investors,
                     and this guide empowers you with the knowledge and steps to
                     recover your forgotten wealth. Stay vigilant, regularly

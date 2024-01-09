@@ -29,13 +29,13 @@ export default function Footer() {
               </li>
               <li>
               <Link href={`/privacypolicy.pdf`} target="blank">
-                <a className="hover:underline me-4 md:me-6 mr-3">
+                <a target="blank" className="hover:underline me-4 md:me-6 mr-3">
                   Privacy Policy
                 </a>
               </Link>
               </li>
               <li>
-                <a href="#Donate" className="hover:underline me-4 md:me-6 mr-3">
+                <a href="#donate" className="hover:underline me-4 md:me-6 mr-3">
                   Donate
                 </a>
               </li>
