@@ -36,9 +36,6 @@ const Article1 = () => {
               <p className="text-center text-xs md:text-sm lg:text-base mb-6">
                 Unlock hidden wealth with our guide on reclaiming unclaimed
                 dividends in India, where over ₹15,000 crores lie idle. <br />{" "}
-                From updating contact details to navigating IEPF rules, empower
-                yourself to retrieve your forgotten earnings and secure your
-                financial future.
               </p>
 
               {/* 3rd Line - Author Image, Name, Published Date, and Read Time */}
