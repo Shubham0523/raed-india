@@ -22,7 +22,7 @@ const LoadingSkeleton = () => {
 export default function CoreTeam() {
   return (
     <div
-      className="flex flex-col w-full items-center my-10 md:my-14 mb-10 "
+      className="flex flex-col w-full items-center my-10 md:my-14 mb-10 p-4"
       id="team"
     >
       <p className="text-4xl font-bold">Core Team</p>

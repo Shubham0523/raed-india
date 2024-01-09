@@ -3,7 +3,7 @@ import React from "react";
 export default function Aim() {
   return (
     <div
-      className="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
+      className="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0 p-4"
       data-taos-offset="300"
       id="aim"
     >
