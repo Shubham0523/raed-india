@@ -4,7 +4,7 @@ import React from "react";
 export default function Donate() {
   return (
     <div
-      className="flex flex-col w-full items-center my-10 md:my-14 transition-transform transform hover:scale-105"
+      className="flex flex-col w-full items-center my-10 md:my-14 transition-transform lg:hover:scale-105 hover:text-sky-700 transform-gpu"
       id="donate"
     >
       <div className="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
@@ -20,12 +20,12 @@ export default function Donate() {
             and Dividends.
           </p>
           <img
-            src="/qr.jpeg"
+            src="/qr.jpg"
             alt=""
             className="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12"
           />
           <a
-            href="/qr.jpeg"
+            href="/qr.jpg"
             className="flex justify-center items-center p-3 px-6 w-max bg-indigo-500 text-white font-semibold rounded-full shadow-lg hover:shadow-indigo-500/30 hover:scale-[1.02] transition-all ease-in-out duration-100 sm:scale-100 m-1.5"
             target="_blank"
             rel="noopener noreferrer"

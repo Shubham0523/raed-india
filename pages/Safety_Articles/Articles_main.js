@@ -2,6 +2,16 @@
 import React from "react";
 import Link from "next/link";
 
+const gridLayout = `
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 6px;
+    margin-top: 20px;
+  }
+`;
+
 const articles = [
   {
     id: 1,
@@ -22,7 +32,7 @@ const Scams = () => {
     <div
       className="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
       data-taos-offset="300"
-      id="stay_secure"
+      id="articles"
     >
       <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
@@ -35,7 +45,7 @@ const Scams = () => {
               valuable knowledge.
             </p>
           </div>
-          <div class="grid gap-8 lg:grid-cols-2">
+          <div class="grid-article gap-8 lg:grid-cols-2">
             {articles.map((article) => (
               <Link href={`/Safety_Articles/Article${article.id}`} key={article.id}>
                 <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">

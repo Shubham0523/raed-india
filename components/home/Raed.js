@@ -7,7 +7,7 @@ const Raed = () => {
       className="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
       data-taos-offset="300"
       >
-        <div className="intro-header transition-transform transform hover:scale-110">
+        <div className="intro-header transition-transform lg:hover:scale-110 hover:text-sky-700 transform-gpu">
           <p className="text-gray-400 hover:text-sky-700">
             {" "}
             <span className="font-bold text-green-700 hover:text-sky-700">RAED</span> Stands For

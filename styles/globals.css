@@ -9,3 +9,41 @@ html {
   font-family: "Poppins", sans-serif;
   background-color: rgb(244 244 245);
 }
+
+.hover-effect:hover {
+  transform: none !important;
+}
+
+@media (max-width: 768px) {
+  .hover-effect:hover {
+    transform: scale(1.1);
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr); /* Change the number of columns for smaller screens */
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 6px;
+  margin-top: 40px;
+}
+
+.grid-article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 6px;
+  margin-top: 40px;
+}
+
+@media (max-width: 320px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .grid-article {
+    grid-template-columns: 1fr;
+  }
+}

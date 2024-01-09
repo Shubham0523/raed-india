@@ -2,7 +2,7 @@ import Head from "next/head";
 import Aim from "../components/home/Aim";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
-import CoreTeam from "../components/home/CoreTeam";
+// import CoreTeam from "../components/home/CoreTeam";
 import Donate from "../components/home/Donate";
 import About from "../components/home/About";
 import Raed from "../components/home/Raed";

@@ -34,11 +34,11 @@ const Navbar = () => {
             <a
               href="#help"
               onClick={() => console.log("Clicked Aim")}
-              aria-label="How We Help"
-              title="How We Help"
+              aria-label="Where We Help"
+              title="Where We Help"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
             >
-              How We Help
+              Where We Help
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </a>
           </li>
@@ -110,8 +110,8 @@ const Navbar = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full">
-                <div className="p-5 bg-zinc-100 border rounded shadow-sm">
+              <div className="absolute top-0 left-0 w-full z-10">
+                <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <a
@@ -141,29 +141,29 @@ const Navbar = () => {
                     <ul className="space-y-4">
                       <li>
                         <a
-                          href="#"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="#aim"
+                          aria-label="Our aim"
+                          title="Our aim"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                          Aim
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="#help"
+                          aria-label="Our services"
+                          title="Our services"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Donate
+                          Where We Help
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#"
-                          aria-label="Product Our Team"
-                          title="Product Our Team"
+                          href="#team"
+                          aria-label="Our Team"
+                          title="Our Team"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Our Team
@@ -171,17 +171,17 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="#articles"
                           aria-label="Statistics"
                           title="Statistics"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Statistics
+                          Articles
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="#about"
                           aria-label="About Us"
                           title="About Us"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
