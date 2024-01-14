@@ -22,8 +22,8 @@ const Navbar = () => {
           <li>
             <a
               href="#aim"
-              aria-label="Aim"
-              title="Aim"
+              aria-label="Our Aim"
+              title="Our Aim"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
             >
               Our Aim
@@ -45,8 +45,8 @@ const Navbar = () => {
         </ul>
         <a
           href="#"
-          aria-label="Company"
-          title="Company"
+          aria-label="Raed India"
+          title="Raed India"
           className="inline-flex items-center transition-transform transform hover:scale-110"
         >
           <img src="/logo_raed.png" alt="" className="h-12 lg:h-14" />
@@ -146,7 +146,7 @@ const Navbar = () => {
                           title="Our aim"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Aim
+                          Our Aim
                         </a>
                       </li>
                       <li>
