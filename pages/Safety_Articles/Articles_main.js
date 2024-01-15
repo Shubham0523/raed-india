@@ -17,7 +17,7 @@ const articles = [
     id: 1,
     name: "Unclaimed Dividends: A Guide to Reclaiming Your Forgotten Wealth",
     image: "/logo_raed.png",
-    desc: "Unlock hidden wealth with our guide on reclaiming unclaimed dividends in India",
+    desc: "Discover hidden wealth by reclaiming unclaimed dividends in India. Over ₹15,000 crores remain idle—unlock your financial potential with our guide.",
   },
   {
     id: 2,
@@ -37,10 +37,10 @@ const Scams = () => {
       <section class="bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-white">
               Stay Informed, Stay Secure
             </h2>
-            <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <p class="font-light text-gray-500 sm:text-xl">
               Begin a journey of continuous learning and empowerment with our
               valuable knowledge.
             </p>
@@ -48,9 +48,9 @@ const Scams = () => {
           <div class="grid-article gap-8 lg:grid-cols-2">
             {articles.map((article) => (
               <Link href={`/Safety_Articles/Article${article.id}`} key={article.id}>
-                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <article class="p-6 rounded-lg border shadow-md bg-gray-800 border-gray-700">
                   <div class="flex justify-between items-center mb-5 text-gray-500">
-                    <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                    <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded">
                       <svg
                         class="mr-1 w-3 h-3"
                         fill="currentColor"
@@ -67,7 +67,7 @@ const Scams = () => {
                       Article
                     </span>
                   </div>
-                  <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-sky-700 hover:underline">
+                  <h2 class="mb-2 text-2xl font-bold tracking-tight text-white hover:text-sky-700 hover:underline">
                     <a href="#">{article.name}</a>
                   </h2>
                   <p class="mb-5 font-light text-gray-500 dark:text-gray-400">

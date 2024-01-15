@@ -17,11 +17,11 @@ export default function Footer() {
                 className="h-8"
                 alt="Flowbite Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 Raed India
               </span>
             </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 dark:text-white mr-3">
+            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-white mr-3">
               <li>
                 <a href="#" className="hover:underline me-4 md:me-6 mr-3">
                   About
