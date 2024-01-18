@@ -35,7 +35,7 @@ export default function CoreTeam() {
           join our journey.
         </p>
       </p>
-      <div class="grid grid-cols-3 gap-20 p-6 mt-20">
+      <div className="grid grid-cols-3 gap-20 p-6 mt-20">
         <LoadingSkeleton />
         <LoadingSkeleton />
         <LoadingSkeleton />

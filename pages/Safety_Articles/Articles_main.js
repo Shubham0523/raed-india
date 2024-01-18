@@ -34,25 +34,25 @@ const Scams = () => {
       data-taos-offset="300"
       id="articles"
     >
-      <section class="bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-white">
+      <section className="bg-gray-900">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+            <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-white">
               Stay Informed, Stay Secure
             </h2>
-            <p class="font-light text-gray-500 sm:text-xl">
+            <p className="font-light text-gray-500 sm:text-xl">
               Begin a journey of continuous learning and empowerment with our
               valuable knowledge.
             </p>
           </div>
-          <div class="grid-article gap-8 lg:grid-cols-2">
+          <div className="grid-article gap-8 lg:grid-cols-2">
             {articles.map((article) => (
               <Link href={`/Safety_Articles/Article${article.id}`} key={article.id}>
-                <article class="p-6 rounded-lg border shadow-md bg-gray-800 border-gray-700">
-                  <div class="flex justify-between items-center mb-5 text-gray-500">
-                    <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded">
+                <article className="p-6 rounded-lg border shadow-md bg-gray-800 border-gray-700">
+                  <div className="flex justify-between items-center mb-5 text-gray-500">
+                    <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded">
                       <svg
-                        class="mr-1 w-3 h-3"
+                        className="mr-1 w-3 h-3"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -67,30 +67,30 @@ const Scams = () => {
                       Article
                     </span>
                   </div>
-                  <h2 class="mb-2 text-2xl font-bold tracking-tight text-white hover:text-sky-700 hover:underline">
+                  <h2 className="mb-2 text-2xl font-bold tracking-tight text-white hover:text-sky-700 hover:underline">
                     <a href="#">{article.name}</a>
                   </h2>
-                  <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
+                  <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
                     {article.desc}
                   </p>
-                  <div class="flex justify-between items-center">
-                    <div class="flex items-center space-x-4">
+                  <div className="flex justify-between items-center">
+                    <div className="flex items-center space-x-4">
                       <img
-                        class="w-7 h-7 rounded-full"
+                        className="w-7 h-7 rounded-full"
                         src={article.image}
                         alt={article.auth}
                       />
-                      <span class="font-medium dark:text-white">
+                      <span className="font-medium dark:text-white">
                         {article.auth}
                       </span>
                     </div>
                     <a
                       href="#"
-                      class="inline-flex items-center font-medium text-primary-600 text-sky-500 hover:underline"
+                      className="inline-flex items-center font-medium text-primary-600 text-sky-500 hover:underline"
                     >
                       Read more
                       <svg
-                        class="ml-2 w-4 h-4"
+                        className="ml-2 w-4 h-4"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"

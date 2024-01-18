@@ -84,7 +84,7 @@ const Article1 = () => {
                     unclaimed dividends step by step.
                   </p>
                   <div className="mt-12">
-                    <h3 class="font-semibold text-heading-6 text-dark mb-6">
+                    <h3 className="font-semibold text-heading-6 text-dark mb-6">
                       Why Unclaimed Dividends Exist:
                     </h3>
                     <p className="mb-5 text-body text-justify">
@@ -98,7 +98,7 @@ const Article1 = () => {
                       window for investors to recover unclaimed dividends and
                       shares after 7 years of inactivity.
                     </p>
-                    <h3 class="font-semibold text-heading-6 text-dark mb-6">
+                    <h3 className="font-semibold text-heading-6 text-dark mb-6">
                       Identifying Unclaimed Dividends:
                     </h3>
                     <p className="font-semibold text-dark mb-5 text-justify">
@@ -111,7 +111,7 @@ const Article1 = () => {
                       navigate the process.
                     </p>
                   </div>
-                  <h3 class="font-semibold text-heading-6 text-dark mb-6">
+                  <h3 className="font-semibold text-heading-6 text-dark mb-6">
                     Identifying Unclaimed Dividends:
                   </h3>
                   <ul className="flex flex-col gap-3.5 mt-7">
@@ -185,7 +185,7 @@ const Article1 = () => {
                   </ul>
                 </div>
                 <div className="mt-12">
-                  <h3 class="font-semibold text-heading-6 text-dark mb-6">
+                  <h3 className="font-semibold text-heading-6 text-dark mb-6">
                     Common Questions Regarding IEPF Claim Process:
                   </h3>
                   <ul className="flex flex-col gap-3.5 mt-7">
