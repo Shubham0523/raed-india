@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="title" content="raedindia" />
         <meta
           name="description"
-          content="Team Raed India is passionately committed to aiding individuals in recovering their unclaimed shares, dividends, and investments."
+          content="RAED India is dedicated to raising cancer awareness among youth and millennials, focusing on early detection and education. Join us in empowering communities, spreading vital knowledge, and making a lasting impact in the fight against cancer."
         />
         <meta name="copyright" content="Shubham Arora" />
         <meta property="og:type" content="website" />
@@ -26,7 +26,7 @@ export default function Home() {
         <meta property="og:title" content="raedindia" />
         <meta
           property="og:description"
-          content="Team Raed India is passionately committed to aiding individuals in recovering their unclaimed shares, dividends, and investments."
+          content="RAED India is dedicated to raising cancer awareness among youth and millennials, focusing on early detection and education. Join us in empowering communities, spreading vital knowledge, and making a lasting impact in the fight against cancer."
         />
         <meta property="og:image" content="" />
         <meta property="twitter:card" content="summary_large_image" />
@@ -34,7 +34,7 @@ export default function Home() {
         <meta property="twitter:title" content="raedindia" />
         <meta
           property="twitter:description"
-          content="Team Raed India is passionately committed to aiding individuals in recovering their unclaimed shares, dividends, and investments."
+          content="RAED India is dedicated to raising cancer awareness among youth and millennials, focusing on early detection and education. Join us in empowering communities, spreading vital knowledge, and making a lasting impact in the fight against cancer."
         />
         <meta property="twitter:image" content="" />
       </Head>
