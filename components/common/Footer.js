@@ -22,26 +22,26 @@ export default function Footer() {
               </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-white mr-3">
-              <li>
+              {/* <li>
                 <a href="#" className="hover:underline me-4 md:me-6 mr-3">
                   About
                 </a>
-              </li>
+              </li> */}
               <li>
-              <Link href={`/privacypolicy.pdf`} target="blank">
-                <a target="blank" className="hover:underline me-4 md:me-6 mr-3">
+              <Link href={`/privacypolicy.pdf`} passHref>
+                <a target="_blank" rel="noopener noreferrer" className="hover:underline me-4 md:me-6 mr-3">
                   Privacy Policy
                 </a>
               </Link>
               </li>
-              <li>
-                <a href="#donate" className="hover:underline me-4 md:me-6 mr-3">
-                  Donate
+              {/* <li>
+                <a href="#Myths" className="hover:underline me-4 md:me-6 mr-3">
+                  Myths
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="https://forms.gle/24qqqW6reU95REMk9" target="blank" className="hover:underline mr-3">
-                  Contact
+                <a href="https://forms.gle/ruJrMhvZVwEDiqCw7" target="_blank" rel="noopener noreferrer" className="hover:underline mr-3">
+                  Volunteer
                 </a>
               </li>
             </ul>

@@ -4,14 +4,14 @@ import React from "react";
 export default function Donate() {
   return (
     <div
-      className="flex flex-col w-full items-center my-10 md:my-14 transition-transform lg:hover:scale-105 hover:text-sky-700 transform-gpu"
+      className="flex flex-col w-full items-center my-10 md:my-14"
       id="donate"
     >
       <div className="delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
       data-taos-offset="300">
       <div className="flex flex-col md:flex-row pt-10 justify-center items-center">
         <div className="w-full sm:w-6/12 md:w-4/12 flex justify-center items-center">
-          <img src="/qr_mock.png" alt="" className="w-8/12 lg:w-6/12" />
+          <img src="/qr_mock.png" alt="QR code mockup" className="w-8/12 lg:w-6/12" />
         </div>
         <div className="w-10/12 sm:w-8/12 md:w-5/12 lg:w-6/12 flex flex-col justify-center items-center px-4">
           <p className="text-4xl lg:text-5xl font-bold pt-10 md:pt-0">Donate</p>
@@ -21,7 +21,7 @@ export default function Donate() {
           </p>
           <img
             src="/qr.jpg"
-            alt=""
+            alt="qr"
             className="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12"
           />
           <a

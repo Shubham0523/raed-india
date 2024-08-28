@@ -26,14 +26,14 @@ export default function CoreTeam() {
       id="team"
     >
       <p className="text-4xl font-bold">Core Team</p>
-      <p className="text-gray-500 text-xl w-full md:w-8/12 text-center my-4 p-4">
-        <p className="text-justify">
+      <p className="text-gray-500 text-xl w-full md:w-8/12 text-justify my-4 p-4">
+        {/* <p className="text-justify"> */}
           Collaborative endeavors in the charitable domain serve as a potent
           catalyst, cultivating teamwork that metamorphoses collective
           initiatives into impactful outcomes for the greater good. Stay tuned
           as we unveil our team soon! In the meantime, click the button below to
           join our journey.
-        </p>
+        {/* </p> */}
       </p>
       <div className="grid grid-cols-3 gap-20 p-6 mt-20">
         <LoadingSkeleton />

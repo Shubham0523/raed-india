@@ -7,13 +7,13 @@ const Navbar = () => {
   return (
     <div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
-        <ul className="flex items-center hidden space-x-8 lg:flex">
+        <ul className="items-center hidden space-x-8 lg:flex">
           <li>
             <a
               href="#about"
               aria-label="About Us"
               title="About Us"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group hover:text-sky-700"
             >
               About Us
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
@@ -24,7 +24,7 @@ const Navbar = () => {
               href="#aim"
               aria-label="Our Aim"
               title="Our Aim"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group hover:text-sky-700"
             >
               Our Aim
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
@@ -32,13 +32,13 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#help"
+              href="#statistics"
               onClick={() => console.log("Clicked Aim")}
-              aria-label="Where We Help"
-              title="Where We Help"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
+              aria-label="Statistics"
+              title="Statistics"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group hover:text-sky-700"
             >
-              Where We Help
+              Statistics
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </a>
           </li>
@@ -51,38 +51,38 @@ const Navbar = () => {
         >
           <img src="/logo_raed.png" alt="" className="h-12 lg:h-14" />
         </a>
-        <ul className="flex items-center hidden space-x-8 lg:flex">
+        <ul className="items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="#team"
-              aria-label="Our Team"
-              title="Our Team"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
+              href="#questions"
+              aria-label="Questions"
+              title="Questions"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group hover:text-sky-700"
             >
-              Our Team
+              Questions
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </a>
           </li>
           <li>
             <a
-              href="#donate"
-              aria-label="Donate"
-              title="Donate"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
+              href="#myths"
+              aria-label="Myths"
+              title="Myths"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group hover:text-sky-700"
             >
-              Donate
+              Myths
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </a>
           </li>
           <li>
             <a
-              href="https://forms.gle/hZeofhCmW3ffTh249"
-              target="blank"
-              aria-label="Contact"
-              title="Contact"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group transition duration-300 hover:text-sky-700"
+              href="https://forms.gle/ruJrMhvZVwEDiqCw7"
+              target="_blank"
+              aria-label="Volunteer"
+              title="Volunteer"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 group hover:text-sky-700"
             >
-              Contact Us
+              Volunteer 
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </a>
           </li>
@@ -151,32 +151,32 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          href="#help"
+                          href="#statistics"
                           aria-label="Our services"
                           title="Our services"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Where We Help
+                          Statistics
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#team"
-                          aria-label="Our Team"
-                          title="Our Team"
+                          href="#questions"
+                          aria-label="Questions"
+                          title="Questions"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Our Team
+                          Questions
                         </a>
                       </li>
                       <li>
                         <a
-                          href="#articles"
-                          aria-label="Statistics"
-                          title="Statistics"
+                          href="#myths"
+                          aria-label="Myths"
+                          title="Myths"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Articles
+                          Myths
                         </a>
                       </li>
                       <li>
