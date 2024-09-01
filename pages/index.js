@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Script from "next/script"; // Import Script component
+import Script from "next/script"; 
 import Navbar from "../components/common/Navbar";
 import Hero from "../components/home/Hero";
 import Stats from "../components/home/Stats";
@@ -39,6 +39,7 @@ export default function Home() {
         />
         <meta property="twitter:image" content="" />
         {/* <!-- Google tag (gtag.js) --> */}
+      </Head>
         <Script
         id="gtag-script"
         async
@@ -55,7 +56,6 @@ export default function Home() {
           gtag('config', 'G-D0GBSHYFJX');
         `}
       </Script>
-      </Head>
         <Navbar />
       <main>
         <Hero />
