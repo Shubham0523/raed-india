@@ -40,6 +40,11 @@ export default function Home() {
         <meta property="twitter:image" content="" />
         {/* <!-- Google tag (gtag.js) --> */}
         <Script
+        id="gtag-script"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-D0GBSHYFJX"
+      />
+        <Script
         id="gtag-init"
         strategy="afterInteractive" // Ensures script runs after the page is interactive
       >
