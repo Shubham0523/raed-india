@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script"; // Import Script component
 import Navbar from "../components/common/Navbar";
 import Hero from "../components/home/Hero";
 import Stats from "../components/home/Stats";
@@ -37,6 +38,18 @@ export default function Home() {
           content="RAED India is dedicated to raising cancer awareness among youth and millennials, focusing on early detection and education. Join us in empowering communities, spreading vital knowledge, and making a lasting impact in the fight against cancer."
         />
         <meta property="twitter:image" content="" />
+        {/* <!-- Google tag (gtag.js) --> */}
+        <Script
+        id="gtag-init"
+        strategy="afterInteractive" // Ensures script runs after the page is interactive
+      >
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-D0GBSHYFJX');
+        `}
+      </Script>
       </Head>
         <Navbar />
       <main>
